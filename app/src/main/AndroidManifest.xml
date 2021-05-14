@@ -9,7 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Exo_01_Interface_Login">
-        <activity android:name=".RegisterActivity"></activity>
+        <!-- windowSoftInputMode="adjustResize"  -> Permet de prendre le compte la taille du clavier -->
+        <activity
+            android:name=".RegisterActivity"
+            android:windowSoftInputMode="adjustResize"></activity>
         <activity
             android:name=".MainActivity"
             android:windowSoftInputMode="adjustResize">

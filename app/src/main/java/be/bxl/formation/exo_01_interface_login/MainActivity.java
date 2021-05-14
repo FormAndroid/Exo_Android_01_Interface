@@ -65,6 +65,9 @@ public class MainActivity extends AppCompatActivity {
             // Création d'un intent pour ouvrir l'activité "RegisterActivity"
             Intent intent = new Intent(getApplicationContext(), RegisterActivity.class);
 
+            // Ajout de donnée dans le bundle de l'intent
+            intent.putExtra("DEMO", "Ceci sera passé a l'activité 'Register' via l'intent");
+
             // Envois de l'intent a Android pour démarré l'activité
             startActivity(intent);
         });
