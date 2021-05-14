@@ -142,7 +142,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="@string/hint_address_country"
-                android:inputType="text" />
+                android:inputType="text"
+                android:imeOptions="actionDone" />
 
             <Button
                 android:layout_width="match_parent"
